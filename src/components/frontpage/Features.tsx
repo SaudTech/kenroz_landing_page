@@ -6,7 +6,7 @@ import { FaRegFilePdf, FaSms } from "react-icons/fa";
 import { PiExam } from "react-icons/pi";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 
-export function Features() {
+export function Features({ id }: { id: string }) {
   const words = [
     {
       text: "Management",
@@ -27,7 +27,7 @@ export function Features() {
   ];
 
   return (
-    <div>
+    <div id={id}>
       <div className="text-center">
         <TypewriterEffectSmooth className="mx-auto justify-center" words={words} />
         <h1 className="text-xl font-normal mx-auto">We offer the following features</h1>

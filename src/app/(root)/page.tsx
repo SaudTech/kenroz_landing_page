@@ -36,7 +36,7 @@ export default function Home() {
         </svg>
       </div>
 
-      <Features />
+      <Features id="features" />
 
       <About />
 

@@ -4,14 +4,8 @@ import { SparklesCore } from "./ui/sparkles";
 
 const Footer = () => {
   return (
-    // <div className="bg-gray-900 text-white p-4 min-h-[300px]">
-    //   <div className="text-center max-w-[200px]">
-    //   <Image src="/just-logo.png" className="mx-auto" alt="Hero" width={140} height={140} />
-    //   <h2>Take a lead, get notified!</h2>
-    //   </div>
-    // </div>
     <div
-      className="bg-black h-[30rem] relative w-full flex flex-col items-center justify-center overflow-hidden rounded-md"
+      className="bg-black min-h-[30rem] relative w-full flex flex-col items-center justify-center overflow-hidden rounded-md"
     >
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore

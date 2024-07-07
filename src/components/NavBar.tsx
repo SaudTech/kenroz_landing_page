@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
@@ -32,7 +32,9 @@ const NavBar = () => {
       top-0 left-2/4 transform md:h-14 text-black w-full -translate-x-2/4 
       transition-all duration-300 ease-in-out bg-[#f65dfe]
       ${
-        scrolled ? "backdrop-filter backdrop-blur-sm bg-opacity-40 bg-[#f65dfe]" : ""
+        scrolled
+          ? "backdrop-filter backdrop-blur-sm bg-opacity-40 bg-[#f65dfe]"
+          : ""
       }
     `}
     >

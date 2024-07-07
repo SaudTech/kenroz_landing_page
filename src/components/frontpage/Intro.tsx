@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { FlipWords } from "../ui/flip-words";
+import Link from "next/link";
 
 const Intro = () => {
   const words = ["User_Friendly", "Efficient"];
@@ -24,7 +25,9 @@ const Intro = () => {
         </p>
 
         <div className="flex space-x-3 mt-5">
-          <Button className="w-full max-w-[300px]">Feature we provide</Button>
+          <Link href="#features">
+            <Button className="w-full max-w-[300px]">Feature we provide</Button>
+          </Link>
           <Button variant={"outline"} className="w-full max-w-[300px] bg-white">
             Request a demo
           </Button>
