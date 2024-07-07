@@ -22,7 +22,7 @@ export function Features() {
     },
     {
       text: "Kenroz.",
-      className: "text-yellow-500 dark:text-blue-500",
+      className: "text-primary",
     },
   ];
 
